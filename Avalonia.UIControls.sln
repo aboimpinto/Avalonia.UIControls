@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIControls.TestBed", "UIControls.TestBed\UIControls.TestBed.csproj", "{97E7ED5F-C081-462A-89A5-346984C77CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIControls", "UIControls\UIControls.csproj", "{DCACCA26-149B-42B7-919A-693B7F9BBEB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E7ED5F-C081-462A-89A5-346984C77CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E7ED5F-C081-462A-89A5-346984C77CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E7ED5F-C081-462A-89A5-346984C77CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E7ED5F-C081-462A-89A5-346984C77CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCACCA26-149B-42B7-919A-693B7F9BBEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCACCA26-149B-42B7-919A-693B7F9BBEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCACCA26-149B-42B7-919A-693B7F9BBEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCACCA26-149B-42B7-919A-693B7F9BBEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

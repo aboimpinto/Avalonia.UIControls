@@ -1,0 +1,19 @@
+<Application 
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UIControls.TestBed"
+    x:Class="UIControls.TestBed.App">
+
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+
+        <!-- <StyleInclude Source="avares://UIControls.TestBed/Assets/TextBoxWithValidation.axaml" /> -->
+        <StyleInclude Source="avares://UIControls/UIControlsStyles.axaml" />
+        
+    </Application.Styles>
+
+</Application>

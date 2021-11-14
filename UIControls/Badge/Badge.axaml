@@ -1,0 +1,31 @@
+<Styles 
+  xmlns="https://github.com/avaloniaui"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="using:UIControls">
+
+  <Design.PreviewWith>
+    <Border Padding="20">
+      <!-- Add Controls for Previewer Here -->
+    </Border>
+  </Design.PreviewWith>
+
+  <Styles.Resources>
+    <SolidColorBrush x:Key="AppBackgroundBrush" Color="Blue" />
+  </Styles.Resources>
+
+  <Style Selector="local|Badge">
+
+    <Setter Property="Template">
+      <ControlTemplate>
+        <Border Background="Green">
+          <ContentPresenter
+            Margin="10"
+            Content="{TemplateBinding Content}" 
+            ContentTemplate="{TemplateBinding ContentTemplate}" />
+        </Border>
+      </ControlTemplate>
+    </Setter>
+
+  </Style>
+
+</Styles>
