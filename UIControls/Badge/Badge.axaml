@@ -13,13 +13,12 @@
     <SolidColorBrush x:Key="AppBackgroundBrush" Color="Blue" />
   </Styles.Resources>
 
-  <Style Selector="local|Badge">
-
+  <Style Selector="Badge">
     <Setter Property="Template">
       <ControlTemplate>
         <Border Background="Green">
           <ContentPresenter
-            Margin="10"
+            Margin="50"
             Content="{TemplateBinding Content}" 
             ContentTemplate="{TemplateBinding ContentTemplate}" />
         </Border>

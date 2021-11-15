@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="**\*.xaml.cs">
+    <Compile Update="**\*.axaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
     <Folder Include="Models\" />
