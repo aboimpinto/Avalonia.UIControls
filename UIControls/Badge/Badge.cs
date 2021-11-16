@@ -6,10 +6,8 @@ using Avalonia.Styling;
 
 namespace UIControls
 {
-    public class Badge : ContentControl, IStyleable
+    public class Badge : ContentControl
     {
-        Type IStyleable.StyleKey => typeof(ContentControl);
-
         public static readonly StyledProperty<object> BadgeContentProperty =
             AvaloniaProperty.Register<Badge, object>(nameof(BadgeContent));
         public static readonly StyledProperty<IDataTemplate> BadgeContentTemplateProperty =

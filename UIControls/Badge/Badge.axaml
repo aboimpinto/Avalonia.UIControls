@@ -5,7 +5,7 @@
 
   <Design.PreviewWith>
     <Border Padding="20">
-      <!-- Add Controls for Previewer Here -->
+      <Badge>Test</Badge>
     </Border>
   </Design.PreviewWith>
 
@@ -15,7 +15,7 @@
 
   <Style Selector="Badge">
     <Setter Property="Template">
-      <ControlTemplate>
+      <ControlTemplate TargetType="Badge">
         <Border Background="Green">
           <ContentPresenter
             Margin="50"
